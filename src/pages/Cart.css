@@ -1,0 +1,42 @@
+body{
+    background-image: url(/public/images/loginpage2.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    
+}
+
+.product-details {
+  background: linear-gradient(
+    135deg,
+    bisque,
+    hsl(21, 56%, 76%) 100%
+  );
+
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+
+  transition: all 0.3s ease;
+}
+
+.product-details:hover {
+  transform: scale(1.02);
+}
+
+.product-name {
+  font-size: 23px;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.product-price {
+  color: #081a11;
+  font-size: 25px;
+  font-weight: bold;
+}
