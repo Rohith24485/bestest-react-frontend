@@ -53,7 +53,7 @@ function Navbar() {
       <div className="container-fluid">
 
         <a className="navbar-brand" href="/">
-          🌟 BESTEST PRICE V2
+          🌟 BESTEST WEBSITE
         </a>
 
         <div className="ms-auto d-flex gap-2">
