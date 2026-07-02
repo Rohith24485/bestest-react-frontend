@@ -1,0 +1,19 @@
+stages:
+  - build
+
+build_frontend:
+  stage: build
+  image: node:20
+
+  before_script:
+    - npm install
+
+  script:
+    - npm run build
+
+  artifacts:
+    paths:
+      - dist/
+
+  only:
+    - main
